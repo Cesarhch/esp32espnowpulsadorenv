@@ -54,5 +54,5 @@ void loop()
   }
   // Send message via ESP-NOW
   esp_err_t result = esp_now_send(broadcastAddress, (uint8_t *)&myDataSen, sizeof(myDataSen));
-  delay(100);
+  delay(500);
 }
